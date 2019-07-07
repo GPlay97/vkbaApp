@@ -28,3 +28,45 @@ ActionBar .action-bar-title {
     horizontal-align: center;
 }
 
+@import '~nativescript-theme-core/css/core.dark.css';
+
+/* App Global CSS */
+.page {
+    background-color: $theme-color;
+}
+
+.action-bar {
+    background-color: $theme-color;
+}
+
+label {
+    /* https://www.nativescript.org/blog/using-custom-fonts-in-a-nativescript-app */
+    font-family: "Quicksand", "Quicksand-Regular", "Quicksand-Bold";
+    color: white;
+}
+
+.large {
+    font-size: 40;
+    font-weight: bold;
+    margin-bottom: 5;
+    vertical-align: top;
+}
+
+.medium {
+    font-size: 28;
+    /* font-weight: bold; */
+    margin-bottom: 5;
+    vertical-align: top;
+}
+
+.small {
+    font-size: 15;
+    margin: 0;
+    /* text-align: left;  */
+}
+
+.hr-light {
+    background-color: white;
+    opacity: 0.1;
+}
+

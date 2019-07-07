@@ -135,7 +135,6 @@
     .page {
         align-items: center;
         flex-direction: column;
-        background-color: #2C3251;
     }
 
     .form {

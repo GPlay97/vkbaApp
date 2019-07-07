@@ -3,7 +3,7 @@
             <StackLayout row="0" class="sidedrawer-header">
                 <Label class="sidedrawer-header-image fa" text.decode="&#xf2bd;"></Label>
                 <Label class="sidedrawer-header-brand" text="LegendSkyFall"></Label>
-                <Label class="footnote" text="7.454,21 KAD"></Label>
+                <Label class="footnote" text="7.454 KAD"></Label>
             </StackLayout>
         
             <ScrollView row="1" class="sidedrawer-content">
@@ -89,7 +89,7 @@
     $sidedrawer-list-icon-size: 20;
     .sidedrawer {
         &.sidedrawer-left {
-            background-color: $ab-background;
+            background-color: $theme-color;
 
             .sidedrawer-header-image {
                 color: $background-dark;
@@ -107,7 +107,7 @@
         }
 
         .sidedrawer-header {
-            background-color: $ab-background;
+            background-color: $theme-color;
 
             .sidedrawer-header-brand {
                 color: $ab-color;
