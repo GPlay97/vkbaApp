@@ -13,7 +13,7 @@
                         <Label col="1" text="Home" class="p-r-10"></Label>
                     </GridLayout>
 
-                    <GridLayout columns="auto, *" :class="'sidedrawer-list-item' + (selectedPage === 'Browse' ? ' selected': '')" @tap="onNavigationItemTap(Browse)">
+                    <GridLayout columns="auto, *" :class="'sidedrawer-list-item' + (selectedPage === 'Transactions' ? ' selected': '')" @tap="onNavigationItemTap(Transactions)">
                         <Label col="0" text.decode="&#xf03a;" class="fa"></Label>
                         <Label col="1" text="Transaktionen" class="p-r-10"></Label>
                     </GridLayout>
@@ -36,7 +36,7 @@
 
 <script>
     import Home from "./Home";
-    import Browse from "./Browse";
+    import Transactions from "./Transactions";
     import Featured from "./Featured";
     import Search from "./Search";
     import Settings from "./Settings";
@@ -51,7 +51,7 @@
         data () {
             return {
                 Home: Home,
-                Browse: Browse,
+                Transactions: Transactions,
                 Featured: Featured,
                 Search: Search,
                 Settings: Settings,
@@ -60,7 +60,7 @@
         },
         components: {
             Home,
-            Browse,
+            Transactions,
             Featured,
             Search,
             Settings
