@@ -43,7 +43,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./components/Home.vue");
-/* harmony import */ var _Transactions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./components/Transactions.vue");
+/* harmony import */ var _Transactions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./components/Transactions.vue");
 /* harmony import */ var _Featured__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./components/Featured.vue");
 /* harmony import */ var _Search__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./components/Search.vue");
 /* harmony import */ var _Settings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./components/Settings.vue");
@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
   data() {
     return {
       Home: _Home__WEBPACK_IMPORTED_MODULE_0__["default"],
-      Transactions: _Transactions__WEBPACK_IMPORTED_MODULE_7__["default"],
+      Transactions: _Transactions__WEBPACK_IMPORTED_MODULE_1__["default"],
       Featured: _Featured__WEBPACK_IMPORTED_MODULE_2__["default"],
       Search: _Search__WEBPACK_IMPORTED_MODULE_3__["default"],
       Settings: _Settings__WEBPACK_IMPORTED_MODULE_4__["default"],
@@ -111,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
 
   components: {
     Home: _Home__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Transactions: _Transactions__WEBPACK_IMPORTED_MODULE_7__["default"],
+    Transactions: _Transactions__WEBPACK_IMPORTED_MODULE_1__["default"],
     Featured: _Featured__WEBPACK_IMPORTED_MODULE_2__["default"],
     Search: _Search__WEBPACK_IMPORTED_MODULE_3__["default"],
     Settings: _Settings__WEBPACK_IMPORTED_MODULE_4__["default"]
@@ -629,6 +629,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -645,6 +650,30 @@ __webpack_require__.r(__webpack_exports__);
       name: "LegendSkyFall",
       amount: 22,
       imageSrc: "https:/cravatar.eu/avatar/LegendSkyFall"
+    }, {
+      name: "125m125",
+      amount: 789,
+      imageSrc: "https:/cravatar.eu/avatar/125m125"
+    }, {
+      name: "Niki0311",
+      amount: 40,
+      imageSrc: "https:/cravatar.eu/avatar/Niki0311"
+    }, {
+      name: "LegendSkyFall",
+      amount: 200,
+      imageSrc: "https:/cravatar.eu/avatar/LegendSkyFall"
+    }, {
+      name: "125m125",
+      amount: 11,
+      imageSrc: "https:/cravatar.eu/avatar/125m125"
+    }, {
+      name: "125m125",
+      amount: 22,
+      imageSrc: "https:/cravatar.eu/avatar/125m125"
+    }, {
+      name: "125m125",
+      amount: 33,
+      imageSrc: "https:/cravatar.eu/avatar/125m125"
     }]
   }),
 
@@ -667,7 +696,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* WEBPACK VAR INJECTION */(function(global) {exports = module.exports = __webpack_require__("../node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/**\r\n * Convenient single import for light variables\r\n * Includes base variables with light overrides\r\n **/\n/**\r\n * Light variable overrides\r\n **/\n/**\n * Theme variables overrides\n**/\n.sidedrawer.sidedrawer-left[data-v-38f02606] {\n  background-color: #2C3251;\n}\n.sidedrawer.sidedrawer-left .sidedrawer-header-image[data-v-38f02606] {\n    color: #F8F8F8;\n    height: 60;\n    width: 60;\n    font-size: 60;\n    padding: 0;\n    margin-bottom: 5;\n    margin-top: 20;\n}\n.sidedrawer.sidedrawer-left .footnote[data-v-38f02606] {\n    color: rgba(255, 255, 255, 0.5);\n}\n.sidedrawer .sidedrawer-header[data-v-38f02606] {\n  background-color: #2C3251;\n}\n.sidedrawer .sidedrawer-header .sidedrawer-header-brand[data-v-38f02606] {\n    color: #fff;\n}\n.sidedrawer .sidedrawer-content[data-v-38f02606] {\n  background-color: #FFFFFF;\n}\n.sidedrawer .sidedrawer-list-item[data-v-38f02606] {\n  padding-left: 15;\n}\n.sidedrawer .sidedrawer-list-item Label[data-v-38f02606] {\n    vertical-align: center;\n    color: #022734;\n}\n.sidedrawer .sidedrawer-list-item .fa[data-v-38f02606] {\n    width: 20;\n    margin-right: 10;\n}\n.sidedrawer .sidedrawer-list-item.selected[data-v-38f02606] {\n    background-color: #F8F8F8;\n}\n.sidedrawer .sidedrawer-list-item.selected Label[data-v-38f02606] {\n      color: #3A53FF;\n}\n", ""]);
+exports.push([module.i, "/**\r\n * Convenient single import for light variables\r\n * Includes base variables with light overrides\r\n **/\n/**\r\n * Light variable overrides\r\n **/\n/**\n * Theme variables overrides\n**/\n.sidedrawer.sidedrawer-left[data-v-38f02606] {\n  background-color: #2C3251;\n}\n.sidedrawer.sidedrawer-left .sidedrawer-header-image[data-v-38f02606] {\n    color: #F8F8F8;\n    height: 60;\n    width: 60;\n    font-size: 60;\n    padding: 0;\n    margin-bottom: 5;\n    margin-top: 20;\n    background: url(\"https:/cravatar.eu/avatar/LegendSkyFall\") center center no-repeat;\n    background-size: cover;\n}\n.sidedrawer.sidedrawer-left .footnote[data-v-38f02606] {\n    color: rgba(255, 255, 255, 0.5);\n}\n.sidedrawer .sidedrawer-header[data-v-38f02606] {\n  background-color: #2C3251;\n}\n.sidedrawer .sidedrawer-header .sidedrawer-header-brand[data-v-38f02606] {\n    color: #fff;\n}\n.sidedrawer .sidedrawer-content[data-v-38f02606] {\n  background-color: #FFFFFF;\n}\n.sidedrawer .sidedrawer-list-item[data-v-38f02606] {\n  padding-left: 15;\n}\n.sidedrawer .sidedrawer-list-item Label[data-v-38f02606] {\n    vertical-align: center;\n    color: #022734;\n}\n.sidedrawer .sidedrawer-list-item .fa[data-v-38f02606] {\n    width: 20;\n    margin-right: 10;\n}\n.sidedrawer .sidedrawer-list-item.selected[data-v-38f02606] {\n    background-color: #F8F8F8;\n}\n.sidedrawer .sidedrawer-list-item.selected Label[data-v-38f02606] {\n      color: #3A53FF;\n}\n", ""]);
 
 
     const application = __webpack_require__("tns-core-modules/application");
@@ -978,10 +1007,7 @@ var render = function() {
         "StackLayout",
         { staticClass: "sidedrawer-header", attrs: { row: "0" } },
         [
-          _c("Label", {
-            staticClass: "sidedrawer-header-image fa",
-            attrs: { "text.decode": "&#xf2bd;" }
-          }),
+          _c("Label", { staticClass: "sidedrawer-header-image" }),
           _c("Label", {
             staticClass: "sidedrawer-header-brand",
             attrs: { text: "LegendSkyFall" }
@@ -1840,67 +1866,101 @@ var render = function() {
         { staticClass: "page-content" },
         [
           _c(
-            "ListView",
-            {
-              staticClass: "list-group transactions-list",
-              staticStyle: { height: "1250px" },
-              attrs: { items: _vm.transactions, "+alias": "transaction" }
-            },
+            "StackLayout",
+            { attrs: { orientation: "vertical", dock: "top" } },
             [
-              _c("v-template", {
-                scopedSlots: _vm._u([
-                  {
-                    key: "default",
-                    fn: function(ref) {
-                      var transaction = ref.transaction
-                      var $index = ref.$index
-                      var $even = ref.$even
-                      var $odd = ref.$odd
-                      return _c(
-                        "FlexboxLayout",
-                        {
-                          staticClass: "list-group-item",
-                          attrs: { flexDirection: "row" }
-                        },
-                        [
-                          _c("Image", {
-                            staticClass: "thumb img-circle",
-                            attrs: { src: transaction.imageSrc }
-                          }),
-                          _c("Label", {
-                            staticClass: "list-group-item-heading",
-                            staticStyle: { width: "30%" },
-                            attrs: {
-                              text: transaction.name,
-                              alignSelf: "center"
-                            }
-                          }),
-                          _c("Label", {
-                            staticClass: "fa list-group-item-heading",
-                            staticStyle: { width: "20%", textAlign: "right" },
-                            attrs: {
-                              "text.decode": "&#xf100;",
-                              alignSelf: "center",
-                              color:
-                                transaction.name === "LegendSkyFall"
-                                  ? "green"
-                                  : "red"
-                            }
-                          }),
-                          _c("Label", {
-                            staticClass: "list-group-item-heading amount",
-                            staticStyle: { width: "30%", textAlign: "right" },
-                            attrs: {
-                              text: transaction.amount + " KAD",
-                              alignSelf: "center"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    }
-                  }
-                ])
+              _c(
+                "ListView",
+                {
+                  staticClass: "list-group transactions-list",
+                  staticStyle: { height: "1500px" },
+                  attrs: { items: _vm.transactions, "+alias": "transaction" }
+                },
+                [
+                  _c("v-template", {
+                    scopedSlots: _vm._u([
+                      {
+                        key: "default",
+                        fn: function(ref) {
+                          var transaction = ref.transaction
+                          var $index = ref.$index
+                          var $even = ref.$even
+                          var $odd = ref.$odd
+                          return _c(
+                            "FlexboxLayout",
+                            {
+                              staticClass: "list-group-item",
+                              attrs: { flexDirection: "row" }
+                            },
+                            [
+                              _c("Image", {
+                                staticClass: "thumb img-circle",
+                                attrs: { src: transaction.imageSrc }
+                              }),
+                              _c("Label", {
+                                staticClass: "list-group-item-heading",
+                                staticStyle: { width: "30%" },
+                                attrs: {
+                                  text: transaction.name,
+                                  alignSelf: "center"
+                                }
+                              }),
+                              transaction.name === "LegendSkyFall"
+                                ? _c("Label", {
+                                    staticClass: "fa list-group-item-heading",
+                                    staticStyle: {
+                                      width: "20%",
+                                      textAlign: "right"
+                                    },
+                                    attrs: {
+                                      "text.decode": "&#xf100;",
+                                      alignSelf: "center",
+                                      color: "green"
+                                    }
+                                  })
+                                : _c("Label", {
+                                    staticClass: "fa list-group-item-heading",
+                                    staticStyle: {
+                                      width: "20%",
+                                      textAlign: "right"
+                                    },
+                                    attrs: {
+                                      "text.decode": "&#xf101;",
+                                      alignSelf: "center",
+                                      color: "red"
+                                    }
+                                  }),
+                              _c("Label", {
+                                staticClass: "list-group-item-heading amount",
+                                staticStyle: {
+                                  width: "30%",
+                                  textAlign: "right"
+                                },
+                                attrs: {
+                                  text: transaction.amount + " KAD",
+                                  alignSelf: "center"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        }
+                      }
+                    ])
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _c(
+            "GridLayout",
+            { attrs: { rows: "*,auto" } },
+            [
+              _c("Button", {
+                staticClass: "btn btn-primary",
+                attrs: { row: "1", text: "Neue Transaktion" }
               })
             ],
             1

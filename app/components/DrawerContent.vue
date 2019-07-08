@@ -1,7 +1,7 @@
 <template lang="html">
 <GridLayout rows="auto, *" class="sidedrawer sidedrawer-left">
             <StackLayout row="0" class="sidedrawer-header">
-                <Label class="sidedrawer-header-image fa" text.decode="&#xf2bd;"></Label>
+                <Label class="sidedrawer-header-image"></Label>
                 <Label class="sidedrawer-header-brand" text="LegendSkyFall"></Label>
                 <Label class="footnote" text="7.454 KAD"></Label>
             </StackLayout>
@@ -99,6 +99,8 @@
                 padding: 0;
                 margin-bottom: $sidedrawer-header-image-offset-bottom;
                 margin-top: $sidedrawer-header-image-offset-top;
+                background: url("https:/cravatar.eu/avatar/LegendSkyFall") center center no-repeat;
+                background-size: cover;
             }
 
             .footnote {

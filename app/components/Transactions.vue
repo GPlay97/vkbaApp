@@ -18,18 +18,23 @@
             </ActionItem>
             <Label class="action-bar-title" text="Transaktionen"></Label>
         </ActionBar>
-
         <GridLayout class="page-content">
-            <ListView class="list-group transactions-list" for="transaction in transactions" style="height:1250px">
+            <StackLayout orientation="vertical" dock="top">
+                <ListView class="list-group transactions-list" for="transaction in transactions" style="height:1500px">
                     <v-template>
                         <FlexboxLayout flexDirection="row" class="list-group-item">
                             <Image :src="transaction.imageSrc" class="thumb img-circle" />
                             <Label :text="transaction.name" class="list-group-item-heading" style="width: 30%" alignSelf="center" />
-                            <Label text.decode="&#xf100;" class="fa list-group-item-heading" style="width: 20%; text-align: right" alignSelf="center" :color="transaction.name==='LegendSkyFall' ? 'green' : 'red'"></Label>
+                            <Label v-if="transaction.name === 'LegendSkyFall'" text.decode="&#xf100;" class="fa list-group-item-heading" style="width: 20%; text-align: right" alignSelf="center" color="green" />
+                            <Label v-else text.decode="&#xf101;" class="fa list-group-item-heading" style="width: 20%; text-align: right" alignSelf="center" color="red" />
                             <Label :text="transaction.amount + ' KAD'" class="list-group-item-heading amount" style="width: 30%; text-align: right" alignSelf="center" />
                         </FlexboxLayout>
                     </v-template>
                 </ListView>
+            </StackLayout>
+            <GridLayout rows="*,auto">
+                <Button row="1" class="btn btn-primary" text="Neue Transaktion"></Button>
+            </GridLayout>
         </GridLayout>
 
     </Page>
@@ -55,6 +60,36 @@
                         name: "LegendSkyFall",
                         amount: 22,
                         imageSrc: "https:/cravatar.eu/avatar/LegendSkyFall"
+                    },
+                    {
+                        name: "125m125",
+                        amount: 789,
+                        imageSrc: "https:/cravatar.eu/avatar/125m125"
+                    },
+                    {
+                        name: "Niki0311",
+                        amount: 40,
+                        imageSrc: "https:/cravatar.eu/avatar/Niki0311"
+                    },
+                    {
+                        name: "LegendSkyFall",
+                        amount: 200,
+                        imageSrc: "https:/cravatar.eu/avatar/LegendSkyFall"
+                    },
+                    {
+                        name: "125m125",
+                        amount: 11,
+                        imageSrc: "https:/cravatar.eu/avatar/125m125"
+                    },
+                    {
+                        name: "125m125",
+                        amount: 22,
+                        imageSrc: "https:/cravatar.eu/avatar/125m125"
+                    },
+                    {
+                        name: "125m125",
+                        amount: 33,
+                        imageSrc: "https:/cravatar.eu/avatar/125m125"
                     }
             ]
         }),
